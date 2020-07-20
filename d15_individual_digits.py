@@ -1,3 +1,4 @@
+#Function to add individual digits of a given number using recursion
 def individual_sum(n):
     
     if(n == 0):
@@ -7,9 +8,8 @@ def individual_sum(n):
         return 1
 
     sum = 0
-
-    sum += int(n % 10)
-   # n = int(n / 10)    
+    #Splitting individual digits
+    sum += int(n % 10)   
 
     return(sum + individual_sum(n/10))
 
