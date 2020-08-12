@@ -21,6 +21,7 @@ def gap_insertion(arr,start,gap):
 
         arr[pos] = currentVal
 
+#Testing
 arr = [2,1,4,3,5,7,6]
 shell(arr)
 print(arr)
