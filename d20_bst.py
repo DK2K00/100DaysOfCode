@@ -88,6 +88,7 @@ class BinarySearchTree:
             else:
                    currentNode.rightChild = TreeNode(key,val,parent=currentNode)
 
+    #Used to insert elements using dictionaries
     def __setitem__(self,k,v):
         self.put(k,v)
 
