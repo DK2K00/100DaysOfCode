@@ -238,6 +238,7 @@ class BinarySearchTree:
 
 #Testing
 mytree = BinarySearchTree()
+
 mytree[3]="red"
 mytree[4]="blue"
 mytree[6]="yellow"
